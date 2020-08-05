@@ -197,7 +197,7 @@ Function InstallTitusProgs {
 	choco install chocolatey-core.extension -y
 	Write-Output "Running O&O Shutup with Recommended Settings"
 	Import-Module BitsTransfer
-	Start-BitsTransfer -Source "https://raw.githubusercontent.com/ChrisTitusTech/win10script/master/ooshutup10.cfg" -Destination ooshutup10.cfg
+	Start-BitsTransfer -Source "https://raw.githubusercontent.com/techconsulter/win10script/master/ooshutup10.cfg" -Destination ooshutup10.cfg
 	Start-BitsTransfer -Source "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe" -Destination OOSU10.exe
 	./OOSU10.exe ooshutup10.cfg /quiet
 }
@@ -2530,24 +2530,34 @@ Function DebloatAll {
         "Microsoft.Getstarted"
         "Microsoft.Messaging"
         "Microsoft.Microsoft3DViewer"
+        "Microsoft.MicrosoftOfficeHub"
         "Microsoft.MicrosoftSolitaireCollection"
         "Microsoft.NetworkSpeedTest"
         "Microsoft.News"
-		"Microsoft.MicrosoftOfficeHub"
-		"Microsoft.Office.OneNote"
         "Microsoft.Office.Lens"
+        "Microsoft.Office.OneNote"
         "Microsoft.Office.Sway"
+		"Microsoft.Outlook.DesktopIntegrationServices"
+		"Microsoft.MicrosoftStickyNotes"
         "Microsoft.OneConnect"
         "Microsoft.People"
         "Microsoft.Print3D"
+        #"Microsoft.RemoteDesktop"
         "Microsoft.SkypeApp"
         "Microsoft.StorePurchaseApp"
+        "Microsoft.Office.Todo.List"
         "Microsoft.Whiteboard"
         "Microsoft.WindowsAlarms"
+        #"Microsoft.WindowsCamera"
         "microsoft.windowscommunicationsapps"
         "Microsoft.WindowsFeedbackHub"
         "Microsoft.WindowsMaps"
         "Microsoft.WindowsSoundRecorder"
+        "Microsoft.Xbox.TCUI"
+        "Microsoft.XboxApp"
+        "Microsoft.XboxGameOverlay"
+        "Microsoft.XboxIdentityProvider"
+        "Microsoft.XboxSpeechToTextOverlay"
         "Microsoft.ZuneMusic"
         "Microsoft.ZuneVideo"
 
@@ -2565,6 +2575,7 @@ Function DebloatAll {
         "*Twitter*"
         "*Facebook*"
         "*Spotify*"
+		"*Minecraft*"
         "*Royal Revolt*"
         "*Sway*"
         "*Speed Test*"
