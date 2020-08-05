@@ -2533,6 +2533,8 @@ Function DebloatAll {
         "Microsoft.MicrosoftSolitaireCollection"
         "Microsoft.NetworkSpeedTest"
         "Microsoft.News"
+		"Microsoft.MicrosoftOfficeHub"
+		"Microsoft.Office.OneNote"
         "Microsoft.Office.Lens"
         "Microsoft.Office.Sway"
         "Microsoft.OneConnect"
