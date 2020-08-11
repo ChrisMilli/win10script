@@ -4,7 +4,8 @@ This is a fork from ChrisTitusTech https://christitus.com/
 
 thanks to Chris
 
-use it wit One4All command:
+use it wit One4All command Open Powershell(Admin):
+
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJgn8')"
    
 
